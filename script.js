@@ -4,6 +4,6 @@ const euclid =  (a,b) => {
         return b
     }
     else{
-        return eu(b,r)
+        return euclid(b,r)
     }
 }
